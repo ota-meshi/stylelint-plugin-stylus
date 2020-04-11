@@ -31,6 +31,8 @@ This plugin allows us to check the [Stylus] with [stylelint].
 
 [stylelint editor integrations](https://stylelint.io/user-guide/integrations/editor) are useful to check your code in real-time.
 
+You can check on the [Online DEMO](https://ota-meshi.github.io/stylelint-plugin-stylus/playground/).
+
 ## :cd: Installation
 
 Via [npm]:

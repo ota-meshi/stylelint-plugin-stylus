@@ -89,5 +89,11 @@ fs.writeFileSync(
 title: "Introduction"
 ---
 
-${fs.readFileSync(readmeFilePath, "utf8").replace(/\.\/docs\//gu, "./")}`
+${fs
+    .readFileSync(readmeFilePath, "utf8")
+    .replace(/\.\/docs\//gu, "./")
+    .replace(
+        /https:\/\/ota-meshi.github.io\/stylelint-plugin-stylus\//u,
+        "./"
+    )}`
 )
