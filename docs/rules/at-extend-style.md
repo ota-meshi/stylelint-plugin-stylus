@@ -58,7 +58,7 @@ a
 
 - [Stylus - @EXTEND]
 
-[Stylus - @EXTEND]: https://stylus-lang.com/docs/block.html
+[Stylus - @EXTEND]: https://stylus-lang.com/docs/extend.html
 [@extend]: https://stylus-lang.com/docs/extend.html
 
 ## :mag: Implementation
