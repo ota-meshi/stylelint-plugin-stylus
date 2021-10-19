@@ -102,7 +102,7 @@ module.exports = {
 
 Use the [stylelint.vscode-stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) extension that [Stylelint] provides officially.
 
-You have to configure the `stylelint.validate` option of the extension to check `.stylus` files, because the extension targets only `*.css` files by default.
+You have to configure the `stylelint.validate` option of the extension to check `.stylus` files, because the extension does not check the `*.stylus` file by default.
 
 Example **.vscode/settings.json**:
 
