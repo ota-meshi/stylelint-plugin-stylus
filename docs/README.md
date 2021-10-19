@@ -110,7 +110,7 @@ You have to configure the `stylelint.validate` option of the extension to check 
 
 Example **.vscode/settings.json**:
 
-```json
+```jsonc
 {
   "stylelint.validate": [
       ...,
