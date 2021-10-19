@@ -2,6 +2,12 @@
 
 module.exports = {
     plugins: [require.resolve("../")],
+    overrides: [
+        {
+            files: ["*.stylus", "*.styl", "**/*.stylus", "**/*.styl"],
+            customSyntax: "postcss-styl",
+        },
+    ],
     rules: {
         // List of possible errors rules within `stylelint-plugin-stylus`
         "stylus/single-line-comment-no-empty": true,
