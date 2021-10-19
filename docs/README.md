@@ -133,14 +133,14 @@ Set [custom syntax](https://stylelint.io/user-guide/usage/options#customsyntax) 
 
 - with [VSCode extension]
 
-  ```js
+  ```json
   {
-  "stylelint.customSyntax": "stylelint-plugin-stylus/custom-syntax",
-  "stylelint.validate": [
+    "stylelint.customSyntax": "stylelint-plugin-stylus/custom-syntax",
+    "stylelint.validate": [
       ...,
       // ↓ Add "stylus" language.
       "stylus"
-  ]
+    ]
   }
   ```
 
