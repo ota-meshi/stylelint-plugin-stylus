@@ -47,7 +47,7 @@
     },
     "homepage": "https://ota-meshi.github.io/stylelint-plugin-stylus/",
     "peerDependencies": {
-        "stylelint": "^13.2.1"
+        "stylelint": "^14.0.0"
     },
     "devDependencies": {
         "@ota-meshi/eslint-plugin": "^0.10.0",
@@ -67,7 +67,7 @@
         "nyc": "^15.0.1",
         "postcss": "^8.0.0",
         "prettier": "^2.2.1",
-        "stylelint": "^13.3.3",
+        "stylelint": "^14.0.0",
         "stylelint-config-standard": "^20.0.0",
         "stylelint-plugin-stylus": "file:.",
         "stylelint4b": "^13.3.3-4b.0",
