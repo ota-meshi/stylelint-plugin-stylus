@@ -1,13 +1,7 @@
 "use strict"
 
 module.exports = {
-    plugins: [require.resolve("../")],
-    overrides: [
-        {
-            files: ["*.stylus", "*.styl", "**/*.stylus", "**/*.styl"],
-            customSyntax: "postcss-styl",
-        },
-    ],
+    extends: [require.resolve("../base-config")],
     rules: {
         // List of possible errors rules within `stylelint-plugin-stylus`
         "stylus/single-line-comment-no-empty": true,
