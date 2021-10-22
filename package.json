@@ -26,7 +26,8 @@
         "docs:build": "vuepress build docs",
         "docs-deploysetup": "npm run docs:build && npm run docs-deploysetup:clean && npm run docs-deploysetup:copy",
         "docs-deploysetup:clean": "rimraf assets",
-        "docs-deploysetup:copy": "npx cpx \"docs/\\.vuepress/dist/**\" . -u"
+        "docs-deploysetup:copy": "npx cpx \"docs/\\.vuepress/dist/**\" . -u",
+        "stylelint": "stylelint \"docs/.vuepress/**/*.css\" \"docs/.vuepress/**/*.vue\" \"docs/.vuepress/**/*.styl\""
     },
     "repository": {
         "type": "git",
@@ -72,6 +73,7 @@
         "eslint-plugin-yml": "^0.10.0",
         "mocha": "^9.0.0",
         "nyc": "^15.0.1",
+        "pako": "^2.0.4",
         "postcss": "^8.0.0",
         "postcss-scss": "^4.0.1",
         "postcss-syntax": "^0.36.2",
