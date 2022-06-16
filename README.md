@@ -1,3 +1,6 @@
+<h1 align="center">This project has moved the repository as an official Stylus project!</h1>
+<p align="center">It is currently maintained in <a href="https://github.com/stylus/stylelint-stylus">stylus/stylelint-stylus</a>!<br>See https://github.com/stylus/stylelint-stylus.</p>
+
 <h1 align="center">stylelint-plugin-stylus</h1>
 
 <p align="center"><a href="https://stylelint.io/" alt="Stylelint">Stylelint</a> plugin for <a href="https://stylus-lang.com/" alt="Stylus">Stylus</a>.
